@@ -4,11 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mi Aula Abierta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fc;
+      color: #333;
+    }
+    header {
+      background: #2b6cb0;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1em;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .tarjeta {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .tarjeta h2 {
+      margin-top: 0;
+      color: #2b6cb0;
+    }
+    .boton {
+      display: inline-block;
+      background: #38a169;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .boton:hover {
+      background: #2f855a;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenidos a mi Aula Abierta</h1>
-  <p>Aquí encontrarás el calendario escolar y los materiales de clase.</p>
-  <h2>Calendario escolar</h2>
-  <p><a href="calendario%20escolar.docx">Descargar calendario escolar</a></p>
+  <header>
+    <h1>Bienvenidos a mi Aula Abierta</h1>
+    <p>Aquí encontrarás el calendario escolar y los materiales de clase.</p>
+  </header>
+  <main>
+    <div class="tarjeta">
+      <h2>Calendario escolar</h2>
+      <p>Descarga el calendario con las fechas importantes del año.</p>
+      <a class="boton" href="calendario%20escolar.docx">Descargar calendario escolar</a>
+    </div>
+  </main>
+  <footer>Aula Abierta</footer>
 </body>
 </html
